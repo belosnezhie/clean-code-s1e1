@@ -6,19 +6,22 @@
     <link rel="stylesheet" href="style.css" MEDIA="screen" charset="utf-8">
   </head>
   <body>
-    <div class="aaa">
+    <section class="aaa">
+      <h1 class="hero__headline">Todo App</h1>
       <img src="./eisenhower-matrix.jpg" alt="Application logo">
       <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="centered-main-page-element">
-      <p id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
+    </section>
+    <section class="centered-main-page-element">
+      <div id="topSectionForAddingElementToList">
+        <label for="new-task">
+          <h2>Add Item</h2>
+        </label>
         <div class="task-row-wrapper">
           <input id="new-task"class="task" type="text">
           <button>Add</button>
         </div>
-      </p>
-      <h3>Todo</h3>
+      </div>
+      <h2>Todo</h2>
       <ul id="incompleteTasks">
         <li>
           <input type="checkbox">
@@ -35,7 +38,7 @@
           <button class="delete"><img src="./remove.svg" alt="Remove"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h2>Completed</h2>
       <ul id="completed-tasks">
         <li>
           <input type="checkbox" checked>
@@ -45,7 +48,7 @@
           <button class="delete"><img src="./remove.svg" alt="Remove"></button>
         </li>
       </ul>
-    </div>
+    </section>
     <script src="app.js"></script>
   </body>
 </html>
