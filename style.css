@@ -47,7 +47,7 @@ body {
   display: flex;
 }
 
-.list__checkbox  {
+.list__checkbox {
   margin: 0 10px;
 }
 
@@ -86,7 +86,8 @@ body {
   margin: 0;
   padding: 0px;
 }
-.list__task-item, .headline {
+.list__task-item,
+.headline {
   list-style: none;
 }
 input,
